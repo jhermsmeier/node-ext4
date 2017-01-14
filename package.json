@@ -14,7 +14,9 @@
     "device"
   ],
   "main": "lib/ext4.js",
-  "dependencies": {},
+  "dependencies": {
+    "bloodline": "~1.0.0"
+  },
   "devDependencies": {},
   "peerDependencies": {},
   "optionalDependencies": {},
