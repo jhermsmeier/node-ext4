@@ -1,0 +1,36 @@
+{
+  "name": "ext4",
+  "version": "0.0.0",
+  "description": "ext4 filesystem driver",
+  "license": "MIT",
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
+  "keywords": [
+    "ext4",
+    "fs",
+    "filesystem",
+    "driver",
+    "disk",
+    "blockdevice",
+    "device"
+  ],
+  "main": "lib/ext4.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "homepage": "https://github.com/jhermsmeier/node-ext4",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhermsmeier/node-ext4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhermsmeier/node-ext4/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  }
+}
