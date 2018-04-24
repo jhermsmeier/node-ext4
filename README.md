@@ -11,3 +11,21 @@ Ext4 filesystem driver
 ```sh
 $ npm install --save ext4
 ```
+
+## Usage
+
+```js
+var Ext4 = require( 'ext4' )
+```
+
+---
+
+**WARNING:** Operation of this file system implementation is unsafe for storage devices
+with a capacity larger than 2^53 - 1 bytes (8192 Terabytes), due to that being the
+largest integer which can be safely represented in JavaScript.
+
+---
+
+## References
+
+- [ext4.wiki.kernel.org](https://ext4.wiki.kernel.org/index.php/Ext4_Disk_Layout)
